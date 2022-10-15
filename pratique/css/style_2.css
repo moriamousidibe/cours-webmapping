@@ -1,0 +1,52 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* container */
+.container, .nav-bar, .container-sign-up {
+    border: 1px solid red;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+
+    background-color: #72ccb1;
+}
+
+.nav-bar{
+    height: 10%;
+}
+
+.container-sign-up{
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* container sign up */
+.csu-left, .csu-right{
+    border: 1px solid red;
+}    
+
+.csu-left {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+
+    background-color: white;
+    border-radius: 5px;
+}
+    
+.csu-right{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+   
